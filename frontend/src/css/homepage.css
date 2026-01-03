@@ -1,0 +1,34 @@
+.wrapper {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative; /* Giữ button nằm trong wrapper */
+}
+.wrapper-controller {
+  position: absolute;
+  bottom: 5%; /* Đẩy button lên để không bị mất */
+  left: 5%;
+}
+.full-image {
+  width: 100%;
+  object-fit: cover; /* Giữ nguyên tỉ lệ ảnh, tránh méo hình */
+}
+.container-img-best-seller {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-best-seller {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; 
+  margin: 0;
+}

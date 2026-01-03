@@ -1,0 +1,21 @@
+frontend/
+│── public/ 
+│── assets/               # Chứa hình ảnh, fonts, icon, styles chung
+│   ├── images/           
+│   ├── fonts/            
+│   ├── icons/            
+│── src/
+│   │── components/           # Chứa các component tái sử dụng (button, modal, input, ...)
+│   │── layouts/              # Chứa các layout chính của website (Header, Footer, Sidebar, ...)
+│   │── pages/                # Chứa các trang chính của ứng dụng (Home, About, Contact, ...)
+│   │── routes/               # Chứa các định tuyến của ứng dụng (React Router)
+│   │── store/                # Chứa Redux store hoặc context API
+│   │── hooks/                # Chứa custom hooks tái sử dụng
+│   │── helpers/              # Chứa các hàm tiện ích dùng chung
+│   │── services/             # Chứa các hàm gọi API
+│   │── config/               # Chứa các file cấu hình (API, môi trường, theme, routes)
+│   │── App.js                # File chính của ứng dụng
+│   │── main.js               # Điểm khởi chạy React
+│── package.json
+│── .gitignore
+│── README.md

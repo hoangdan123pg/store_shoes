@@ -1,0 +1,9 @@
+input[type="password"]::-ms-reveal,
+input[type="password"]::-webkit-contacts-auto-fill-button,
+input[type="password"]::-webkit-textfield-decoration-container,
+input[type="password"]::-webkit-textfield-decoration-box,
+input[type="password"]::-webkit-password-toggle-button,
+input[type="password"]::-webkit-password-toggle,
+input[type="password"]::-ms-clear {
+  display: none !important;
+}

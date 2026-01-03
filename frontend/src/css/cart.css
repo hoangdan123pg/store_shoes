@@ -1,0 +1,5 @@
+.cart-image {
+    width: 80px; /* Giữ ảnh cố định, không bị kéo giãn */
+    height: 80px;
+    object-fit: cover; /* Giữ tỉ lệ ảnh */
+  }

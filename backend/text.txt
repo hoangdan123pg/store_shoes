@@ -1,0 +1,12 @@
+backend/
+│── node_modules/
+│── src/
+│   ├── config/       # Cấu hình (ví dụ: database.js)
+│   ├── models/       # Các mô hình dữ liệu MongoDB
+│   ├── routes/       # Các route API
+│   ├── controllers/  # Xử lý logic
+│   ├── middleware/   # Middleware (xác thực, bảo mật)
+│   ├── app.js        # Cấu hình Express
+│── .env             # File cấu hình biến môi trường
+│── package.json     # Thông tin project
+│── server.js        # File chính chạy server

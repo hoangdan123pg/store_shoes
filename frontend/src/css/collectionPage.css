@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Chiều cao tối thiểu là 100% viewport */
+  }
+  
+  .main > .row {
+    flex: 1; /* Để phần danh sách sản phẩm chiếm hết không gian còn lại */
+  }
+  
+  .pagination {
+    margin-top: auto; /* Đẩy pagination xuống cuối */
+    display: flex;
+    justify-content: center;
+  }
+  

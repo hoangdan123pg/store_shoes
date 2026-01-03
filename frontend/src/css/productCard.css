@@ -1,0 +1,24 @@
+.card-product{
+    position: relative;
+    overflow: hidden; 
+}
+.banner{
+    width: 100%;
+    position: absolute;
+    top: 1%;
+    left: 0%;
+}
+.card-img-container{
+    overflow: hidden;
+}
+.product-img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+.card-img-container .product-img{
+transition: transform 0.5s ease-in-out;
+}
+.card-img-container .product-img:hover  {
+    transform: scale(1.5); 
+}

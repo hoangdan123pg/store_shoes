@@ -1,0 +1,5 @@
+.list-group-item.active {
+    background-color: rgb(194, 191, 191) !important; /* Màu nền */
+    color: white !important; /* Màu chữ */
+    border-radius: 8px !important;
+  }
